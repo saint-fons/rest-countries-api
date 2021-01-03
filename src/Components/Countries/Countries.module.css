@@ -1,0 +1,15 @@
+.Flag {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.bodyContainer{
+    width: 800px;
+}
+.flagsContainer{
+    display: inline-block;
+}
+
+.flagContainer{
+    margin: 0 50px 50px 0;
+}

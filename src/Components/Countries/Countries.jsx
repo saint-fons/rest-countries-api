@@ -1,20 +1,30 @@
 import React from 'react'
+import s from './Countries.module.css'
 
 
 let Countries = (props) => {
 
-    return <div>
+    return <div className={s.bodyContainer}>
         <div>
             {
                 props.countries.map(c =>
-                    <div>{c.name}</div>
-                )
-            }
-        </div>
-        <div>
-            {
-                props.countries.map(c =>
-                    <img src={c.flag} alt={"flag"} />
+                    <div className={s.flagsContainer}>
+                        <div className={s.flagContainer}>
+                            <img className={s.Flag} src={c.flag} alt={"flag"}/>
+                            <div>
+                                {c.name}
+                            </div>
+                            <div>
+                                Population: {c.population}
+                            </div>
+                            <div>
+                                Region: {c.region}
+                            </div>
+                            <div>
+                                Capital: {c.capital}
+                            </div>
+                        </div>
+                    </div>
                 )
             }
         </div>
