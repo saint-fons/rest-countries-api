@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from "react-redux";
 import Countries from "./Countries";
 import {getCountries} from "../../Redux/countriesReducer";
-import {getCountriesSelector} from "../../Redux/CountriesSelector";
+import {getCountriesSelector, getCountriesSuperSelector} from "../../Redux/CountriesSelector";
 
 
 class CountriesContainer extends React.Component {
@@ -23,8 +23,7 @@ class CountriesContainer extends React.Component {
 
 let mapStateToProps = (state) => {
     return {
-        countries: getCountriesSelector(state)
-
+        countries: getCountriesSuperSelector(state)
     }
 }
 
