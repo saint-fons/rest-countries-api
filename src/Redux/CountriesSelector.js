@@ -7,5 +7,5 @@ export const getCountriesSelector = (state) => {
 
 export const getCountriesSuperSelector = createSelector(getCountriesSelector,
     (countries) => {
-        return countries
+        return countries.filter( c => (c.name == "Afghanistan"))
     })
