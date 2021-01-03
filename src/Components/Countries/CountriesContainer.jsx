@@ -1,7 +1,8 @@
 import React from 'react'
 import {connect} from "react-redux";
-import {getCountries} from "../../Redux/countriesReducer";
 import Countries from "./Countries";
+import {getCountries} from "../../Redux/countriesReducer";
+import {getCountriesSelector} from "../../Redux/CountriesSelector";
 
 
 class CountriesContainer extends React.Component {
@@ -22,7 +23,7 @@ class CountriesContainer extends React.Component {
 
 let mapStateToProps = (state) => {
     return {
-        countries: state.listCountries.countries
+        countries: getCountriesSelector(state)
 
     }
 }
