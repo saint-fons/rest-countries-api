@@ -13,8 +13,7 @@ class CountriesContainer extends React.Component {
     render() {
         return <>
             <Countries
-                Afghanistan={this.props.Afghanistan}
-                nativeName={this.props.nativeName}
+                countries={this.props.countries}
             />
         </>
     }
@@ -23,8 +22,8 @@ class CountriesContainer extends React.Component {
 
 let mapStateToProps = (state) => {
     return {
-        Afghanistan: state.listCountries.Afghanistan.name,
-        nativeName: state.listCountries.Afghanistan.nativeName
+        countries: state.listCountries.countries
+
     }
 }
 

@@ -1,16 +1,24 @@
 import React from 'react'
 
 
-const Countries = (props) => {
+let Countries = (props) => {
 
-    return (
+    return <div>
         <div>
-            <div>
-                {props.Afghanistan}
-                {props.nativeName}
-            </div>
+            {
+                props.countries.map(c =>
+                    <div>{c.name}</div>
+                )
+            }
         </div>
-    )
+        <div>
+            {
+                props.countries.map(c =>
+                    <img src={c.flag} alt={"flag"} />
+                )
+            }
+        </div>
+    </div>
 }
 
 
