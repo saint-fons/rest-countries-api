@@ -1,11 +1,15 @@
 import React from 'react'
 import s from './Countries.module.css'
+import SearchCountriesContainer from "./SearchCountries/SearchCountriesContainer";
 
 
 let Countries = (props) => {
 
     return <div className={s.bodyContainer}>
         <div>
+            <div>
+                <SearchCountriesContainer />
+            </div>
             {
                 props.countries.map(c =>
                     <div className={s.flagsContainer}>

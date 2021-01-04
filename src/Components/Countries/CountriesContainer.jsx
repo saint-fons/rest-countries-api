@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from "react-redux";
 import Countries from "./Countries";
 import {getCountries} from "../../Redux/countriesReducer";
-import {getCountriesSelector, getCountriesSuperSelector} from "../../Redux/CountriesSelector";
+import {getCountriesSuperSelector} from "../../Redux/CountriesSelector";
 
 
 class CountriesContainer extends React.Component {

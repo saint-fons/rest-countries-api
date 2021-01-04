@@ -2,10 +2,15 @@ import {createSelector} from "reselect";
 
 
 export const getCountriesSelector = (state) => {
-    return state.listCountries.countries
+    return (state)
+}
+
+export const updateCountriesSelector = (state) => {
+    return state.listCountries.countriesSearch
 }
 
 export const getCountriesSuperSelector = createSelector(getCountriesSelector,
-    (countries) => {
-        return countries.filter( c => (c.name == "Afghanistan"))
+    (state) => {
+        return state.listCountries.countries.filter( c =>
+            (c.name.includes(state.listCountries.countriesSearch)))
     })
