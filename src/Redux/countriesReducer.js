@@ -2,12 +2,16 @@ import {CountriesAPI} from "../api/api";
 
 
 const SET_COUNTRIES = 'SET-COUNTRIES'
+const SET_COUNTRY_NAME_PAGE = 'SET_COUNTRY_NAME_PAGE'
+const SET_COUNTRY_NAME = 'SET_COUNTRY_NAME'
 const UPDATE_NEW_COUNTRIES = 'UPDATE_NEW_COUNTRIES'
 
 
 let initialState = {
     countries: [],
-    countriesSearch: ""
+    countryNamePage: [],
+    countriesSearch: "",
+    countryPage: ""
 }
 
 
@@ -19,9 +23,19 @@ const countriesReducer = (state = initialState, action) => {
                 ...state,
                 countries: action.countries
             }
+            case SET_COUNTRY_NAME_PAGE:
+            return {
+                ...state,
+                countryNamePage: action.countryNamePage
+            }
             case UPDATE_NEW_COUNTRIES: {
                 stateCopy = {...state}
                 stateCopy.countriesSearch = action.countriesSearch
+                return stateCopy
+            }
+            case SET_COUNTRY_NAME: {
+                stateCopy = {...state}
+                stateCopy.countryPage = action.name
                 return stateCopy
             }
         default:
@@ -29,12 +43,18 @@ const countriesReducer = (state = initialState, action) => {
     }
 }
 
-
 export const setCountries = (countries) =>
     ({type: SET_COUNTRIES, countries})
 
+export const setCountryNamePage = (countryNamePage) =>
+    ({type: SET_COUNTRIES, countryNamePage})
+
+export const setCountryName = (name) =>
+    ({type: SET_COUNTRY_NAME, name})
+
 export const updateCountriesActionCreator = (text) =>
     ({ type: UPDATE_NEW_COUNTRIES, countriesSearch: text})
+
 
 
 export const getCountries = () => {
@@ -45,6 +65,16 @@ export const getCountries = () => {
             })
     }
 }
+
+export const getCountryName = (name) => {
+    return (dispatch) => {
+        CountriesAPI.getCountries()
+            .then(response => {
+                dispatch(setCountryNamePage(response))
+            })
+    }
+}
+
 
 
 
