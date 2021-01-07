@@ -15,12 +15,13 @@ class BordersContainer extends React.Component {
         this.props.setCountryNameDispatch(country)
     }
 
-    componentDidUpdate(prevProps) {
-        let country = this.props.match.params.country
-        if (this.props.country !== prevProps.country) {
-            this.props.getCountries()
-        }
 
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        let country1 = this.props.match.params.country
+        let country2 = prevProps.match.params.country
+        if(country1 != country2) {
+            this.props.setCountryNameDispatch(country1)
+        }
     }
 
     render() {

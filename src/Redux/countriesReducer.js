@@ -8,10 +8,47 @@ const UPDATE_NEW_COUNTRIES = 'UPDATE_NEW_COUNTRIES'
 
 
 let initialState = {
-    countries: [],
+    countries: [{
+        "name": "",
+        "topLevelDomain": [
+        ],
+        "alpha2Code": "",
+        "alpha3Code": "",
+        "callingCodes": [
+        ],
+        "capital": "",
+        "altSpellings": [
+        ],
+        "region": "",
+        "subregion": "",
+        "population": null,
+        "latlng": [
+        ],
+        "demonym": "",
+        "area": null,
+        "gini": null,
+        "timezones": [
+        ],
+        "borders": [
+        ],
+        "nativeName": "",
+        "numericCode": "",
+        "currencies": [
+        ],
+        "languages": [
+        ],
+        "translations": {
+        },
+        "flag": "",
+        "regionalBlocs": [
+            {
+            }
+        ],
+        "cioc": ""
+    }],
     countryNamePage: [],
     countriesSearch: "",
-    countryPage: ""
+    countryPage: null
 }
 
 
