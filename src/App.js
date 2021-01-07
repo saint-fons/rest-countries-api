@@ -18,6 +18,7 @@ function App(props) {
                     <Route path='/name/:country?' render={() =>
                         <CountryContainer
                         />}/>
+
                     <Route path='/border/:country?' render={() =>
                         <BordersContainer
                         />}/>

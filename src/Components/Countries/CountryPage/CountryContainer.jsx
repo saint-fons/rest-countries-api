@@ -14,13 +14,13 @@ class CountryContainer extends React.Component {
         this.props.setCountryNameDispatch(country)
     }
 
-    /*componentDidUpdate(prevProps) {
+    componentDidUpdate(prevProps) {
         let country = this.props.match.params.country
         if (this.props.country !== prevProps.country) {
             this.props.setCountryNameDispatch(country)
         }
 
-    }*/
+    }
 
     render() {
         return <>

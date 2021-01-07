@@ -3,9 +3,7 @@ import {NavLink} from "react-router-dom";
 import s from "../Countries.module.css";
 
 
-let Bordes = (props) => {
-    debugger
-
+let Borders = (props) => {
     return <div>
         <div>
             <NavLink to={'/'}>
@@ -42,13 +40,6 @@ let Bordes = (props) => {
                                 c.languages.map(l => l.name)
                             }
                         </div>
-                        <div>
-                            borders;
-                            {
-                                c.borders.map(b =>
-                                    (<NavLink to={'/name/' + b}>{b}</NavLink>))
-                            }
-                        </div>
                     </div>
                 </div>
             )
@@ -58,4 +49,4 @@ let Bordes = (props) => {
 }
 
 
-export default Bordes
+export default Borders

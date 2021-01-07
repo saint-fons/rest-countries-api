@@ -4,7 +4,6 @@ import s from "../Countries.module.css";
 
 
 let Country = (props) => {
-    debugger
 
     return <div>
         <div>

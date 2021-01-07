@@ -2,26 +2,35 @@ import React from 'react'
 import {connect} from "react-redux";
 import {getBordersSuperSelector} from "../../../Redux/CountriesSelector";
 import {setCountryNameDispatch} from "../../../Redux/countriesReducer";
-import Bordes from "./Bordes";
+import Borders from "./Bordes";
 import {compose} from "redux";
 import {withRouter} from "react-router";
 
 
 class BordersContainer extends React.Component {
+
     componentDidMount() {
         let country = this.props.match.params.country
         /*this.props.getCountryName(country)*/
         this.props.setCountryNameDispatch(country)
     }
 
+    componentDidUpdate(prevProps) {
+        let country = this.props.match.params.country
+        if (this.props.country !== prevProps.country) {
+            this.props.getCountries()
+        }
+
+    }
 
     render() {
         return <>
             <div>
                 hiiiiiii
             </div>
-            <Bordes
+            <Borders
                 countries={this.props.countries}
+                country={this.props.country}
             />
         </>
     }
