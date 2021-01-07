@@ -4,6 +4,7 @@ import CountryContainer from "./Components/Countries/CountryPage/CountryContaine
 import {compose} from "redux";
 import {withRouter} from "react-router";
 import {Route} from "react-router-dom";
+import BordersContainer from "./Components/Countries/CountryBorders/BordersContainer";
 
 function App(props) {
     /*let {country} = props.match.params*/
@@ -18,7 +19,7 @@ function App(props) {
                         <CountryContainer
                         />}/>
                     <Route path='/border/:country?' render={() =>
-                        <CountryContainer
+                        <BordersContainer
                         />}/>
 
                 </div>

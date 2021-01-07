@@ -23,3 +23,10 @@ export const getPageNameSuperSelector = createSelector(getCountriesSelector,
     })
 
 
+export const getBordersSuperSelector = createSelector(getCountriesSelector,
+    (state) => {
+        return state.listCountries.countries.filter( c =>
+            (c.alpha3Code.includes(state.listCountries.countryPage)))
+    })
+
+
