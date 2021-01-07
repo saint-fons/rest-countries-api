@@ -14,3 +14,12 @@ export const getCountriesSuperSelector = createSelector(getCountriesSelector,
         return state.listCountries.countries.filter( c =>
             (c.name.includes(state.listCountries.countriesSearch)))
     })
+
+
+export const getPageNameSuperSelector = createSelector(getCountriesSelector,
+    (state) => {
+        return state.listCountries.countries.filter( c =>
+            (c.name.includes(state.listCountries.countryPage)))
+    })
+
+

@@ -8,19 +8,23 @@ import {Route} from "react-router-dom";
 function App(props) {
     /*let {country} = props.match.params*/
     return (
-    <div className="App">
-      <header className="App-header">
-          <div>
-              <Route exact path='/' render={() =>
-                  <CountriesContainer/>}/>
+        <div className="App">
+            <header className="App-header">
+                <div>
+                    <Route exact path='/' render={() =>
+                        <CountriesContainer/>}/>
 
-              <Route exact path='/:country?' render={() =>
-                  <CountryContainer
-                  />}/>
-          </div>
-      </header>
-    </div>
-  );
+                    <Route path='/name/:country?' render={() =>
+                        <CountryContainer
+                        />}/>
+                    <Route path='/border/:country?' render={() =>
+                        <CountryContainer
+                        />}/>
+
+                </div>
+            </header>
+        </div>
+    );
 }
 
 export default compose(withRouter)(App);

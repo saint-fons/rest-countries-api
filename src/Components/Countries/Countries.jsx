@@ -18,7 +18,7 @@ let Countries = (props) => {
                         <div className={s.flagContainer}>
                             <img className={s.Flag} src={c.flag} alt={"flag"}/>
                             <div>
-                                <NavLink to={'/' + c.name}>
+                                <NavLink to={'/name/' + c.name}>
                                     {c.name}
                                 </NavLink>
                             </div>

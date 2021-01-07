@@ -23,10 +23,10 @@ const countriesReducer = (state = initialState, action) => {
                 ...state,
                 countries: action.countries
             }
-            case SET_COUNTRY_NAME_PAGE:
-            return {
-                ...state,
-                countryNamePage: action.countryNamePage
+            case SET_COUNTRY_NAME_PAGE: {
+                stateCopy = {...state}
+                stateCopy.countryNamePage = action.countryNamePage
+                return stateCopy
             }
             case UPDATE_NEW_COUNTRIES: {
                 stateCopy = {...state}
@@ -49,7 +49,7 @@ export const setCountries = (countries) =>
 export const setCountryNamePage = (countryNamePage) =>
     ({type: SET_COUNTRIES, countryNamePage})
 
-export const setCountryName = (name) =>
+export const setCountryNameDispatch = (name) =>
     ({type: SET_COUNTRY_NAME, name})
 
 export const updateCountriesActionCreator = (text) =>
@@ -68,7 +68,7 @@ export const getCountries = () => {
 
 export const getCountryName = (name) => {
     return (dispatch) => {
-        CountriesAPI.getCountries()
+        CountriesAPI.getCountryName(name)
             .then(response => {
                 dispatch(setCountryNamePage(response))
             })
