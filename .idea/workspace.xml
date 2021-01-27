@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2543e84-3f15-4f45-b626-9cee23ac2337" name="Default Changelist" comment="from border to border links">
+      <change beforePath="$PROJECT_DIR$/src/Components/Countries/CountryBorders/BordersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Countries/CountryBorders/BordersContainer.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mFs1NBx4EtZKpH4VX3MtzyJJhF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\rest-countries-api-with-color-theme-switcher-master\rest-countries-app\src\Components\Countries" />
+      <recent name="F:\git\rest-countries-api-with-color-theme-switcher-master\rest-countries-app\src\Components" />
+      <recent name="F:\git\rest-countries-api-with-color-theme-switcher-master\rest-countries-app\src\Components\Countries\CountryPage" />
+      <recent name="F:\git\rest-countries-api-with-color-theme-switcher-master\rest-countries-app\src\Components\Countries\SearchCountries" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\rest-countries-api-with-color-theme-switcher-master\rest-countries-app\src\img" />
+      <recent name="F:\git\rest-countries-api-with-color-theme-switcher-master\rest-countries-app\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2543e84-3f15-4f45-b626-9cee23ac2337" name="Default Changelist" comment="" />
+      <created>1609100457520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609100457520</updated>
+      <workItem from="1609100458681" duration="762000" />
+      <workItem from="1609102325362" duration="1512000" />
+      <workItem from="1609138444332" duration="2425000" />
+      <workItem from="1609140993110" duration="9213000" />
+      <workItem from="1609218727329" duration="6618000" />
+      <workItem from="1609310140972" duration="2523000" />
+      <workItem from="1609495955750" duration="12000" />
+      <workItem from="1609663452133" duration="25759000" />
+      <workItem from="1609861207157" duration="846000" />
+      <workItem from="1609908646185" duration="1004000" />
+      <workItem from="1609924951720" duration="13828000" />
+      <workItem from="1609999452583" duration="21726000" />
+      <workItem from="1610415818276" duration="2350000" />
+      <workItem from="1610481625271" duration="2654000" />
+      <workItem from="1610528443303" duration="10447000" />
+      <workItem from="1610607216068" duration="74000" />
+      <workItem from="1610607306726" duration="10416000" />
+      <workItem from="1610953339801" duration="105000" />
+      <workItem from="1611507762723" duration="2002000" />
+      <workItem from="1611770358540" duration="1400000" />
+    </task>
+    <task id="LOCAL-00001" summary="init. store, provider">
+      <created>1609139622930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609139622930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="79 finished. stopSubmit (redux-form)">
+      <created>1609327505553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609327505553</updated>
+    </task>
+    <task id="LOCAL-00003" summary="names and flags to props">
+      <created>1609684373084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609684373084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="basic style added">
+      <created>1609692764303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609692764303</updated>
+    </task>
+    <task id="LOCAL-00005" summary="selector added">
+      <created>1609697457977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609697457977</updated>
+    </task>
+    <task id="LOCAL-00006" summary="superSelector added">
+      <created>1609698388872</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609698388872</updated>
+    </task>
+    <task id="LOCAL-00007" summary="filter added">
+      <created>1609699143518</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609699143518</updated>
+    </task>
+    <task id="LOCAL-00008" summary="search added">
+      <created>1609720434884</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609720434884</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Country page added">
+      <created>1609941633326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609941633326</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Country page added">
+      <created>1610008004485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610008004485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="borders page added">
+      <created>1610010787428</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610010787428</updated>
+    </task>
+    <task id="LOCAL-00012" summary="borders links fixed">
+      <created>1610033424089</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610033424089</updated>
+    </task>
+    <task id="LOCAL-00013" summary="from border to border links">
+      <created>1610049943907</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610049943907</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix">
+      <created>1611770385014</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611770385014</updated>
+    </task>
+    <task id="LOCAL-00015" summary="svg">
+      <created>1611771973925</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611771973925</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init. store, provider" />
+    <MESSAGE value="79 finished. stopSubmit (redux-form)" />
+    <MESSAGE value="names and flags to props" />
+    <MESSAGE value="basic style added" />
+    <MESSAGE value="selector added" />
+    <MESSAGE value="superSelector added" />
+    <MESSAGE value="filter added" />
+    <MESSAGE value="search added" />
+    <MESSAGE value="Country page added" />
+    <MESSAGE value="borders page added" />
+    <MESSAGE value="borders links fixed" />
+    <MESSAGE value="from border to border links" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="svg" />
+  </component>
+</project>
