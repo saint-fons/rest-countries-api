@@ -18,18 +18,29 @@ let Countries = (props) => {
                         <div className={s.flagContainer}>
                             <img className={s.Flag} src={c.flag} alt={"flag"}/>
                             <div>
-                                <NavLink to={'/name/' + c.name}>
+                                <NavLink to={'/name/' + c.name}
+                                         className={s.LinkStyle}
+                                >
                                     {c.name}
                                 </NavLink>
                             </div>
                             <div>
-                                Population: {c.population}
+                               <span className={s.MetaInfoCountry}>
+                                   Population:
+                               </span>
+                                {c.population}
                             </div>
                             <div>
-                                Region: {c.region}
+                                <span className={s.MetaInfoCountry}>
+                                Region:
+                                    </span>
+                                {c.region}
                             </div>
                             <div>
-                                Capital: {c.capital}
+                                <span className={s.MetaInfoCountry}>
+                                Capital:
+                                    </span>
+                                {c.capital}
                             </div>
                         </div>
                     </div>

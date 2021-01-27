@@ -26,9 +26,6 @@ class BordersContainer extends React.Component {
 
     render() {
         return <>
-            <div>
-                hiiiiiii
-            </div>
             <Borders
                 countries={this.props.countries}
                 country={this.props.country}

@@ -1,15 +1,223 @@
-.Flag {
-    max-width: 150px;
-    max-height: 150px;
-}
+@media (min-width: 1440px) {
 
-.bodyContainer{
-    width: 800px;
-}
-.flagsContainer{
-    display: inline-block;
-}
+    /*ALL FLAGS*/
+    .Flag {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
 
-.flagContainer{
-    margin: 0 50px 50px 0;
+    .bodyContainer {
+        width: 1440px;
+    }
+
+    .flagsContainer {
+        display: inline-block;
+        margin: 0;
+        width: 360px;
+        height: 360px;
+
+    }
+
+    .flagContainer {
+        margin: 0 50px 50px 0;
+    }
+
+
+    /*ALL FLAGS*/
+
+
+
+    /*ONE BY ONE*/
+    .SingleFlag {
+        width: 1440px;
+        height: 500px;
+    }
+
+    .SingleFlagImg {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .SingleFlagInfo {
+        width: 500px;
+        height: 400px;
+        padding: 50px 0 0 150px;
+    }
+
+    .SingleFlagContainer {
+        display: flex;
+    }
+
+    .SingleFlagName {
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .SingleMetaFlagInfo {
+        margin: 5px 5px 0 5px;
+    }
+
+
+    .MetaInfoCountry {
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        margin: 5px 5px 20px 0;
+        text-decoration: none
+    }
+
+    .LinkStyle {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    /*ONE BY ONE*/
+
+
+
+    /*Search*/
+
+
+    .SearchTextAreaContainer {
+        width: 450px;
+        height: 55px;
+
+        background: none;
+        border-radius: 5px;
+        outline: none;
+        resize: none;
+
+        margin-bottom: 25px;
+        padding: 15px 0 0 15px;
+    }
+
+
+
+    /*Search*/
+
+
+
+
+
+
+}@media (max-width: 1440px) {
+
+    /*ALL FLAGS*/
+    .Flag {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+
+        margin: 10px 0 10px 15px;
+    }
+
+    .bodyContainer {
+        width: 375px;
+    }
+
+    .flagsContainer {
+        display: inline-block;
+        margin: 0;
+        width: 360px;
+        height: 360px;
+
+    }
+
+    .flagContainer {
+        margin: 0 50px 50px 0;
+    }
+
+
+    /*ALL FLAGS*/
+
+
+
+    /*ONE BY ONE*/
+    .SingleFlag {
+        width: 375px;
+        height: 500px;
+    }
+
+    .SingleFlagImg {
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+
+        margin: 10px 0 10px 15px;
+    }
+
+    .SingleFlagInfo {
+        width: 375px;
+        height: 400px;
+        margin: 10px 0 10px 15px;
+    }
+
+    .SingleFlagContainer {
+    }
+
+    .SingleFlagName {
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .SingleMetaFlagInfo {
+        margin: 5px 5px 0 5px;
+    }
+
+
+    .MetaInfoCountry {
+        font-weight: bold;
+        width: 50px;
+        height: 10px;
+        margin: 10px 0 10px 15px;
+        text-decoration: none
+    }
+
+    .LinkStyle {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0 10px 15px;
+    }
+
+
+    /*ONE BY ONE*/
+
+
+
+    /*Search*/
+
+    .SearchTextAreaContainer {
+        width: 310px;
+        height: 45px;
+
+        background: none;
+        border-radius: 5px;
+        outline: none;
+        resize: none;
+
+        margin: 10px 0 10px 10px;
+        padding: 15px 0 0 15px;
+
+    }
+
+
+    .SearchContainer {
+        width: 375px;
+        height: 85px;
+        margin: auto;
+    }
+
+
+    /*Search*/
+
+
+
+
+
+
 }

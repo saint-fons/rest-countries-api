@@ -1,4 +1,6 @@
 import React from 'react'
+import s from "./../Countries.module.css"
+import SearchIcon from "./../../../img/search-location-solid.svg"
 
 let SearchCountries = (props) => {
 
@@ -9,16 +11,19 @@ let SearchCountries = (props) => {
         props.updateCountries(text)
     }
 
-    return <div>
+    return <div className={s.SearchContainer}>
          <textarea onChange={ updateCountries }
                    ref={ countriesElements }
                    value={ props.countriesSearch }
-                   placeholder={ "Search here" }
+
+                   placeholder={"Search here" }
+                   className={s.SearchTextAreaContainer}
          >
          </textarea>
         <div>
             {props.countriesSearch}
         </div>
+
     </div>
 }
 

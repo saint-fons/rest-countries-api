@@ -1,6 +1,62 @@
-.App-header{
-  width: 1040px;
-  margin: auto;
+@media (min-width: 1440px) {
 
-  background: blueviolet;
+    .DarkThemeSVG {
+        width: 15px;
+        height: 15px;
+
+        margin: 0 5px 0 auto;
+    }
+
+    .Header {
+        display: flex;
+    }
+
+    .ThemeButton {
+        width: 150px;
+        height: 50px;
+        margin: auto 0 auto auto;
+        padding: 0;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width: 1440px) {
+
+
+    .DarkThemeSVG {
+        width: 15px;
+        height: 15px;
+
+        margin: 0 5px 0 auto;
+    }
+
+    .HeaderWhereWord {
+        font-size: 21px;
+        margin: auto auto auto 10px;
+        font-weight: bold;
+
+    }
+
+    .Header {
+        width: 375px;
+        height: 100px;
+        margin: auto;
+
+        display: flex;
+    }
+
+    .ThemeButton {
+        width: 150px;
+        height: 50px;
+        margin: auto 0 auto auto;
+        padding: 0;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 18px;
+    }
 }
