@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2543e84-3f15-4f45-b626-9cee23ac2337" name="Default Changelist" comment="from border to border links">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d2543e84-3f15-4f45-b626-9cee23ac2337" name="Default Changelist" comment="from border to border links" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -119,7 +116,7 @@
       <workItem from="1611507762723" duration="2002000" />
       <workItem from="1611770358540" duration="4125000" />
       <workItem from="1611850747441" duration="621000" />
-      <workItem from="1611906992689" duration="40000" />
+      <workItem from="1611906992689" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="init. store, provider">
       <created>1609139622930</created>
@@ -240,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611773394609</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="build">
+      <created>1611907054930</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907054931</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +279,7 @@
     <MESSAGE value="svg" />
     <MESSAGE value="all files added" />
     <MESSAGE value="package.json from devDep" />
-    <option name="LAST_COMMIT_MESSAGE" value="package.json from devDep" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
 </project>
