@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2543e84-3f15-4f45-b626-9cee23ac2337" name="Default Changelist" comment="from border to border links">
-      <change beforePath="$PROJECT_DIR$/src/Components/Countries/CountryBorders/BordersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Countries/CountryBorders/BordersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +117,9 @@
       <workItem from="1610607306726" duration="10416000" />
       <workItem from="1610953339801" duration="105000" />
       <workItem from="1611507762723" duration="2002000" />
-      <workItem from="1611770358540" duration="1400000" />
+      <workItem from="1611770358540" duration="4125000" />
+      <workItem from="1611850747441" duration="621000" />
+      <workItem from="1611906992689" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="init. store, provider">
       <created>1609139622930</created>
@@ -223,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611771973925</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="all files added">
+      <created>1611772274985</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611772274985</updated>
+    </task>
+    <task id="LOCAL-00017" summary="package.json from devDep">
+      <created>1611773394609</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611773394609</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +273,8 @@
     <MESSAGE value="from border to border links" />
     <MESSAGE value="fix" />
     <MESSAGE value="svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="svg" />
+    <MESSAGE value="all files added" />
+    <MESSAGE value="package.json from devDep" />
+    <option name="LAST_COMMIT_MESSAGE" value="package.json from devDep" />
   </component>
 </project>
